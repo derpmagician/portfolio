@@ -38,7 +38,7 @@ const works = [
   {
     id: 5,
     img: "https://i.imgur.com/dkjSHed.png",
-    title: "Space X Missions",
+    title: "Screen Saver Emulator",
     description: "Manipulation of CSS properties and the timer with js.",
     github: "https://github.com/derpmagician/ScreenSaver-Sim",
     demo: "https://derpmagician.github.io/ScreenSaver-Sim/",

@@ -21,6 +21,21 @@ const Experience = () => {
             <article className="experience__details">
               <FaCheckCircle className="experience__details-icon" />
               <div>
+              <h4>Vue</h4>
+
+              </div>
+            </article>
+            <article className="experience__details">
+              <FaCheckCircle className="experience__details-icon" />
+              <div>
+                <h4>Angular</h4>
+
+              </div>
+
+            </article>
+            <article className="experience__details">
+              <FaCheckCircle className="experience__details-icon" />
+              <div>
                 <h4>CSS</h4>
 
               </div>

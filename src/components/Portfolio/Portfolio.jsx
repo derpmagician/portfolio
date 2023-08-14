@@ -4,6 +4,14 @@ import './Portfolio.css';
 
 const works = [
   {
+    id: 0,
+    img: "https://i.imgur.com/rF2MG1g.png",
+    title: "User Administrator",
+    description: "This Single Page Application fetchs an api and uses React, Routes and Redux to manipulate data and change users roles and location",
+    github: "https://github.com/derpmagician/user-administration-react-redux",
+    demo: "https://derpmagician.github.io/user-administration-react-redux/",
+  },
+  {
     id: 1,
     img: "https://i.imgur.com/1klVC95.png",
     title: "Shorten",
@@ -42,7 +50,7 @@ const works = [
     description: "Manipulation of CSS properties and the timer with js.",
     github: "https://github.com/derpmagician/ScreenSaver-Sim",
     demo: "https://derpmagician.github.io/ScreenSaver-Sim/",
-  }
+  },
 ]
 
 function Portfolio() {

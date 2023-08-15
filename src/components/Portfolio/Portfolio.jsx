@@ -5,7 +5,7 @@ import './Portfolio.css';
 const works = [
   {
     id: 0,
-    img: "https://i.imgur.com/rF2MG1g.png",
+    img: "https://i.imgur.com/4JGWR3m.gif",
     title: "User Administrator",
     description: "This Single Page Application fetchs an api and uses React, Routes and Redux to manipulate data and change users roles and location",
     github: "https://github.com/derpmagician/user-administration-react-redux",
@@ -21,7 +21,7 @@ const works = [
   },
   {
     id: 2,
-    img: "https://i.imgur.com/PTAUwZ6.png",
+    img: "https://i.imgur.com/pKBlia3.gif",
     title: "Image Filters",
     description: "Image Editor in React with a save feature manipulating the CSS with React",
     github: "https://github.com/derpmagician/react_img_filters",
@@ -29,7 +29,7 @@ const works = [
   },
   {
     id: 3,
-    img: "https://i.imgur.com/cOyBHKT.png",
+    img: "https://i.imgur.com/jg5jIGJ.gif",
     title: "Tower Defense Js",
     description: "Javascript vanilla game that uses the Canvas element of HTML and js classes to create the objects",
     github: "https://github.com/derpmagician/towerdefencejs",
@@ -45,7 +45,7 @@ const works = [
   },
   {
     id: 5,
-    img: "https://i.imgur.com/dkjSHed.png",
+    img: "https://i.imgur.com/hV20buP.gif",
     title: "Screen Saver Emulator",
     description: "Manipulates the CSS properties to draw the '3D' objects and only uses vanilla js to activate the timer for the screen to appear.",
     github: "https://github.com/derpmagician/ScreenSaver-Sim",

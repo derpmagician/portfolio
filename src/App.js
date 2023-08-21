@@ -5,6 +5,7 @@ import Experience from './components/Experience/Experience';
 import Portfolio from './components/Portfolio/Portfolio';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
+import Switch from './components/Switch'
 // import './index.css';
 
 
@@ -13,6 +14,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <Switch />
       <Header />
       <Nav />
       <About />

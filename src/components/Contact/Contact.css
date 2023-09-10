@@ -42,7 +42,8 @@ form {
   gap: 1.2rem;
 }
 
-input, textarea {
+.input-text,
+.input-text-area {
   width: 100%;
   padding: 1.5rem;
   border-radius: 0.5rem;
@@ -58,14 +59,14 @@ input, textarea {
 
 
 
-input:active,
-input:focus,
-textarea:active,
-textarea:focus {
+.input-text:active,
+.input-text:focus,
+.input-text-area:active,
+.input-text-area:focus {
   border: 2px solid var(--color-light);
 }
 
-input::placeholder , textarea::placeholder {
+.input-text::placeholder , .input-text-area::placeholder {
   color: var(--color-white);
 }
 

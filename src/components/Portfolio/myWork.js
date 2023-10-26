@@ -9,6 +9,14 @@ export const myWorks = [
   },
   {
     id: 1,
+    img: "https://i.imgur.com/4JGWR3m.gif",
+    title: "User Administrator",
+    description: "This Single Page Application fetchs an api and uses React, Routes and Redux to manipulate data and change users roles and location, it also has Auth0 authentication",
+    github: "https://github.com/derpmagician/user-administration-react-redux",
+    demo: "https://derpmagician.github.io/user-administration-react-redux/",
+  },
+  {
+    id: 2,
     img: "https://i.imgur.com/1klVC95.png",
     title: "Shorten",
     description: "Link shortener made with Node, React y MongoDB, grabs the given url verifies if exist on the db and if doesnt then it gives you a short id, which can be used to access to the given url",
@@ -16,7 +24,7 @@ export const myWorks = [
     demo: null,
   },
   {
-    id: 2,
+    id: 3,
     img: "https://i.imgur.com/pKBlia3.gif",
     title: "Image Filters",
     description: "Image Editor in React with a save feature manipulating the CSS with React",
@@ -24,7 +32,7 @@ export const myWorks = [
     demo: "https://derpmagician.github.io/react_img_filters/",
   },
   {
-    id: 3,
+    id: 4,
     img: "https://i.imgur.com/jg5jIGJ.gif",
     title: "Tower Defense Js",
     description: "Javascript vanilla game that uses the Canvas element of HTML and js classes to create the objects",
@@ -32,7 +40,7 @@ export const myWorks = [
     demo: "https://derpmagician.github.io/towerdefencejs/",
   },
   {
-    id: 4,
+    id: 5,
     img: "https://i.imgur.com/F5OH2m1.png",
     title: "Space X Missions",
     description: "Fetching a Graphql API with React, UseEffect",
@@ -40,7 +48,7 @@ export const myWorks = [
     demo: "https://derpmagician.github.io/consumographqlspacex/",
   },
   {
-    id: 5,
+    id: 6,
     img: "https://i.imgur.com/hV20buP.gif",
     title: "Screen Saver Emulator",
     description: "Manipulates the CSS properties to draw the '3D' objects and only uses vanilla js to activate the timer for the screen to appear.",

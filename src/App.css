@@ -21,8 +21,8 @@
   --container-width-md: 86%;
   --container-width-sm: 90%;
   --transition: all 400ms ease;
-
-  --dark: #0A290C;
+/* Patas */
+  --dark: #093e3e;
   --highlight: #006989;
   --highlight-2: rgb(81, 141, 231);
 }
@@ -105,6 +105,10 @@ a:hover {
 .btn-primary {
   background: var(--color-primary);
   color: var(--color-bg);
+}
+
+.btn-sm {
+  padding: 0.25rem 0.5rem;
 }
 
 img {

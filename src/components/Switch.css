@@ -1,35 +1,46 @@
 :root {
-  --color-bg: #003b46;
+  /* --color-bg: #334600;
   --color-bg-variant: #07575b;
   --color-primary: #a2c523;
-  --color-primary-variant: rgba(77, 181, 255, 0.4);
+  --color-primary-variant: 093e3e;
   --color-white: #fff;
   --color-light: rgb(129, 236, 138);
   --container-width-lg: 75%;
   --container-width-md: 86%;
   --container-width-sm: 90%;
-  --transition: all 400ms ease;
+  --transition: all 400ms ease; */
 
   --dark: hsl(0, 0%, 3%);
   --highlight: #006989;
   --highlight-2: rgb(81, 141, 231);
 }
 
-.color-bar {
-  /* color: white; */
-  font-size: 0.9em;
-  font-weight: bold;
+.bar-container {
   display: flex;
   justify-content: center;
-  letter-spacing: 0.25rem;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.bar-label {
+  font-size: 0.75em;
+  letter-spacing: 0.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bar-color {
+  color: white;
+  /* font-weight: bold; */
   background: var(--color-bg);
+  margin-right: 10px;
 }
 
 body {
   font-family: 'Poppins', sans-serif;
   background: var(--color-bg);
   color: var(--color-white);
-  line-height: 1.7;
+  /* line-height: 1.7; */
   
   /* cat paw */
   background-image: radial-gradient(circle at 15% 20%, var(--dark) 5%, transparent 5%),

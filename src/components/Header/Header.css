@@ -10,6 +10,18 @@ header {
   position: relative;
 }
 
+.saludo {
+  font-size: 1rem;
+}
+
+.nombre {
+  font-size: 2.5rem;
+}
+
+.especializacion {
+  font-size: 2rem;
+}
+
 .cta {
   margin-top: 2.5rem;
   display: flex;

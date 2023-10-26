@@ -1,4 +1,5 @@
 import React, { useRef } from 'react';
+import { useTranslation } from 'react-i18next';
 import './Contact.css';
 import { MdEmail } from 'react-icons/md';
 import { FaLinkedin } from 'react-icons/fa';
@@ -6,6 +7,7 @@ import { FaLinkedin } from 'react-icons/fa';
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+  const { t } = useTranslation();
   const form = useRef();
 
   const sendEmail = (e) => {

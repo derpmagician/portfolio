@@ -25,21 +25,21 @@ const Contact = () => {
 
   return (
     <section id="contact">
-      <h5>Get in Touch</h5>
-      <h2>Contact Me</h2>
+      <h5>{t('contact.t1')}</h5>
+      <h2>{t('contact.t2')}</h2>
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
             <MdEmail className="contact__option-icon" />
             <h4>Email</h4>
             <h5>renzin@gmail.com</h5>
-            <a href="mailto:renzin@gmail.com" target="_blank" rel="noreferrer">Send a Message</a>
+            <a href="mailto:renzin@gmail.com" target="_blank" rel="noreferrer">{t('contact.msg')}</a>
           </article>
           <article className="contact__option">
             <FaLinkedin className="contact__option-icon" />
             <h4>Linkedin</h4>
             <h5>renzo-perez-02205a1bb</h5>
-            <a href="https://www.linkedin.com/in/renzo-perez-02205a1bb/" target="_blank" rel="noreferrer">Send a Message</a>
+            <a href="https://www.linkedin.com/in/renzo-perez-02205a1bb/" target="_blank" rel="noreferrer">{t('contact.msg')}</a>
           </article>
         </div>
         
@@ -47,7 +47,7 @@ const Contact = () => {
           <input id="name" type="text" name="name" placeholder="Your Full Name" required className='input-text' />
           <input id="email" type="email" name="email" placeholder="Your email" required className='input-text'/>
           <textarea id="message" name="message" rows="7" placeholder="Your message" required className='input-text-area' ></textarea>
-          <button type="submit" className="btn btn-primary">Send Message</button>
+          <button type="submit" className="btn btn-primary">{t('contact.msg')}</button>
         </form>
       </div>
     </section>

@@ -63,6 +63,11 @@ i18n
             },
             
           },
+          contact: {
+            t1: "Get in Touch",
+            t2: "Contact Me",
+            msg: "Send a Message",
+          },
         }
       },
       es: {
@@ -101,7 +106,7 @@ i18n
             t1: "Mis Projectos Favoritos ",
             t2: "Portafolio",
             description: {
-              0: "Este SPA obtenido con Vue, Pinia y Bootstrap 5 utiliza Firebase para obtener funcionalidades de Autenticación, Almacenamiento de Datos y Chat.",
+              0: "Este SPA hecho con Vue, Pinia y Bootstrap 5 utiliza Firebase para obtener funcionalidades de Autenticación, Almacenamiento de Datos y Chat.",
               1: "Esta SPA obtiene una API y utiliza React, Routes y Redux para manipular datos y cambiar los roles y la ubicación de los usuarios, también tiene autenticación Auth0",
               2: "Acortador de enlaces creado con Node, React y MongoDB, toma la URL dada, verifica si existe en la base de datos y, si no es así, le proporciona una identificación corta, que puede usarse para acceder a la URL dada.",
               3: "Editor de imágenes en React con una función de guardado que manipula el CSS con React.",
@@ -109,8 +114,11 @@ i18n
               5: "Obteniendo una API Graphql con React, UseEffect.",
               6: "Manipula las propiedades CSS para dibujar los objetos '3D' y solo usa vanilla js para activar el temporizador para que aparezca la pantalla.",
             },
-           
-
+          },
+          contact: {
+            t1: "Ponerse en contacto",
+            t2: "Contáctame",
+            msg: "Envia un Mensaje",
           },
         }
       }

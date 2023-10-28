@@ -71,7 +71,13 @@ i18n
             email: "Your Email",
             msg: "Your M>essage",
           },
-
+          footer: {
+            home: "Home",
+            about: "About",
+            experience: "Experience",
+            portfolio: "portfolio",
+            contact: "Contact",
+          }
         }
       },
       es: {
@@ -127,6 +133,13 @@ i18n
             email: "Tu Email",
             msg: "Tu Mensaje",
           },
+          footer: {
+            home: "Inicio",
+            about: "Acerca",
+            experience: "Experiencia",
+            portfolio: "portafolio",
+            contact: "Contacto",
+          }
         }
       }
     }

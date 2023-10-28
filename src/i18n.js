@@ -66,8 +66,12 @@ i18n
           contact: {
             t1: "Get in Touch",
             t2: "Contact Me",
-            msg: "Send a Message",
+            btn: "Send a Message",
+            name: "Your Full Name",
+            email: "Your Email",
+            msg: "Your M>essage",
           },
+
         }
       },
       es: {
@@ -118,7 +122,10 @@ i18n
           contact: {
             t1: "Ponerse en contacto",
             t2: "Contáctame",
-            msg: "Envia un Mensaje",
+            btn: "Envia un Mensaje",
+            name: "Nombre Completo",
+            email: "Tu Email",
+            msg: "Tu Mensaje",
           },
         }
       }

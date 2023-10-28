@@ -20,7 +20,7 @@ const Contact = () => {
         console.log(error.text);
     });
     e.target.reset();
-  
+
   };
 
   return (
@@ -42,12 +42,12 @@ const Contact = () => {
             <a href="https://www.linkedin.com/in/renzo-perez-02205a1bb/" target="_blank" rel="noreferrer">{t('contact.msg')}</a>
           </article>
         </div>
-        
+
         <form ref={form} onSubmit={sendEmail}>
-          <input id="name" type="text" name="name" placeholder="Your Full Name" required className='input-text' />
-          <input id="email" type="email" name="email" placeholder="Your email" required className='input-text'/>
-          <textarea id="message" name="message" rows="7" placeholder="Your message" required className='input-text-area' ></textarea>
-          <button type="submit" className="btn btn-primary">{t('contact.msg')}</button>
+          <input id="name" type="text" name="name" placeholder={t('contact.name')} required className='input-text' />
+          <input id="email" type="email" name="email" placeholder={t('contact.email')} required className='input-text'/>
+          <textarea id="message" name="message" rows="7" placeholder={t('contact.msg')} required className='input-text-area' ></textarea>
+          <button type="submit" className="btn btn-primary">{t('contact.btn')}</button>
         </form>
       </div>
     </section>

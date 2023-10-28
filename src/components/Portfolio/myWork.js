@@ -2,7 +2,7 @@ export const myWorks = [
   {
     id: 0,
     img: "https://i.imgur.com/4JGWR3m.gif",
-    title: "User Administrator",
+    title: "Vue Chat Proyect",
     description: "This SPA fetchs made with Vue, Pinia and Booststrap 5 uses Firebase to get functionalities of Authentication, Data Storage and Chat.",
     github: "https://github.com/derpmagician/fbvue3-exp",
     demo: "https://derpmagician.github.io/fbvue3-exp/",

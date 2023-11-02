@@ -29,6 +29,9 @@ header {
   justify-content: center;
 }
 
+.cta_b {
+  margin: 0 0.5rem;
+}
 .header__socials {
   display: flex;
   flex-direction: column;

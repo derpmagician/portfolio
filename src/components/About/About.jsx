@@ -3,20 +3,24 @@ import { useTranslation } from 'react-i18next';
 import ME from '../../assets/me.png'
 // import ME from '../../assets/me-about.jpg'
 import {
-  motion, AnimatePresence, useTransform, useAnimation
+  motion,
 } from 'framer-motion';
 import { FaAward, FaPeopleCarry } from 'react-icons/fa'
 import { GiThreeFriends } from 'react-icons/gi'
 import './About.css';
 
 const btnVariant = {
-  hidden: {
-    opacity: 0,
-    x: "100vw"
-  },
-  visible: {
+  initial: {
     opacity: 1,
-    x: "0"
+    y: "0",
+    outlineColor: "white",
+    outlineStyle: "dotted"
+  },
+  circle: {
+    opacity: 1,
+    rotateY: [0, 180, 0],
+    borderRadius: "50%",
+    delay: 1,
   },
 }
 
@@ -36,8 +40,8 @@ function About() {
           <div className="about__cards">
             <motion.article className="about__card"
               variants={btnVariant}
-              initial="hidden"
-              animate="visible"
+              initial="initial"
+              whileHover="circle"
             >
               <FaAward className="about__icon" />
               <h5>{ t('about.a1')}</h5>
@@ -45,8 +49,9 @@ function About() {
             </motion.article>
             <motion.article className="about__card"
               variants={btnVariant}
-              initial="hidden"
-              animate="visible"
+              initial="initial"
+              whileHover="circle"
+
             >
               <FaPeopleCarry className="about__icon" />
               <h5>{ t('about.a2')}</h5>
@@ -54,8 +59,9 @@ function About() {
             </motion.article>
             <motion.article className="about__card"
               variants={btnVariant}
-              initial="hidden"
-              animate="visible"
+              initial="initial"
+              whileHover="circle"
+
             >
               <GiThreeFriends className="about__icon" />
               <h5>{ t('about.a3')}</h5>

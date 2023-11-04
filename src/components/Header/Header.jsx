@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import {
-  motion, AnimatePresence, useAnimation
+  motion, AnimatePresence,
 } from 'framer-motion';
 import CTA from './CTA'
 import ME from '../../assets/me.png'
@@ -9,7 +9,7 @@ import './Header.css'
 
 const saludoVariant = {
   initial: {
-    opacity: 0,
+    opacity: 1,
     y: "0"
   },
   top: {
@@ -26,6 +26,21 @@ const saludoVariant = {
         repeat: Infinity,
         ease: "easeInOut"
        }
+    }
+  },
+  middle: {
+    opacity: 1,
+    rotateX: [0, 180, 0],
+    transition: {
+      type: "spring",
+      rotateX: {
+        delay: 1,
+        duration: 3,
+        yoyo: Infinity,
+        repeat: Infinity,
+        ease: "easeInOut"
+      },
+      transformTemplate: (transforms) => `perspective(1000px) ${transforms}`,
     }
   },
   botom: {
@@ -58,9 +73,20 @@ const Header = () => {
             variants={saludoVariant}
             initial="initial"
             animate="top"
-          >{t('header.saludo')}</motion.h1>
+          >
+            {t('header.saludo')}
+          </motion.h1>
         </AnimatePresence>
-        <h2 className="nombre">Renzo Perez T</h2>
+                <AnimatePresence>
+          <motion.h1 className="saludo"
+            variants={saludoVariant}
+            initial="initial"
+            animate="middle"
+          >
+            <h2 className="nombre">Renzo Perez T</h2>
+
+          </motion.h1>
+        </AnimatePresence>
         <AnimatePresence>
           <motion.h5 className="text-light text-space especializacion"
             variants={saludoVariant}

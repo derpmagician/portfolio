@@ -5,7 +5,7 @@ import './Switch.css'
 
 const lngs = {
   en: { nativeName: 'English' },
-  de: { nativeName: 'Spanish' }
+  es: { nativeName: 'Spanish' }
 };
 
 const Switch = () => {
@@ -15,7 +15,7 @@ const Switch = () => {
 
   // const [activeNav, setActiveNav] = useState('#');
   const colorHandler = (e) => {
-    console.log(e.target.value)
+    // console.log("el target", e.target.value)
     setSelectedColor(e.target.value)
     document.documentElement.style.setProperty('--dark', e.target.value);
   }
@@ -25,16 +25,18 @@ const Switch = () => {
         className="form-control form-control-color bar-label" >
         {textPicker}
         <input type="color" id="mySwicolorbarch" title="Choose the color of the paws"
-          className="form-control form-control-color bar-color"
+          className="colorInput form-control form-control-color bar-color"
           value={selectedColor}
           onChange={colorHandler}
           />
-      </label>
+      </label> |
       <div className="botones">
         {Object.keys(lngs).map((lng) => (
-          <button key={lng} className="btn btn-primary btn-sm"
+          <button key={lng} className="lngBtn btn-primary btn-sm"
             style={{
               fontWeight: i18n.resolvedLanguage === lng ? 'bold' : 'normal',
+              backgroundColor: i18n.resolvedLanguage === lng ? 'grey' : '',
+              cursor:  i18n.resolvedLanguage === lng ? 'not-allowed' : 'pointer',
               // fontSize: '18px'
             }}
             type="submit" onClick={() => i18n.changeLanguage(lng)}>

@@ -1,15 +1,4 @@
 :root {
-  /* --color-bg: #334600;
-  --color-bg-variant: #07575b;
-  --color-primary: #a2c523;
-  --color-primary-variant: 093e3e;
-  --color-white: #fff;
-  --color-light: rgb(129, 236, 138);
-  --container-width-lg: 75%;
-  --container-width-md: 86%;
-  --container-width-sm: 90%;
-  --transition: all 400ms ease; */
-
   --dark: hsl(0, 0%, 3%);
   --highlight: #006989;
   --highlight-2: rgb(81, 141, 231);
@@ -20,6 +9,7 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .bar-label {
@@ -28,10 +18,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  min-width: 3rem;
 }
+
 .bar-color {
   color: white;
-  /* font-weight: bold; */
   background: var(--color-bg);
   margin-right: 10px;
 }
@@ -41,7 +33,6 @@ body {
   background: var(--color-bg);
   color: var(--color-white);
   /* line-height: 1.7; */
-  
   /* cat paw */
   background-image: radial-gradient(circle at 15% 20%, var(--dark) 5%, transparent 5%),
                     radial-gradient(circle at 25% 10%, var(--dark) 5%, transparent 5%),
@@ -55,4 +46,14 @@ body {
                     radial-gradient(circle at 60% 80%, var(--dark) 10%, transparent 10%),
                     linear-gradient(90deg, var(--color-bg), var(--color-bg));
   background-size: 70px 70px;
+}
+
+.lngBtn {
+  margin-left: 0.5rem;
+  border-radius: 5px;
+}
+
+.colorInput {
+  min-width: 40px;
+  cursor: pointer;
 }

@@ -1,8 +1,8 @@
-:root {
+/* :root {
   --dark: hsl(0, 0%, 3%);
   --highlight: #006989;
   --highlight-2: rgb(81, 141, 231);
-}
+} */
 
 .bar-container {
   display: flex;
@@ -20,6 +20,7 @@
   align-items: center;
   text-align: center;
   min-width: 3rem;
+  background: var(--color-bg);
 }
 
 .bar-color {

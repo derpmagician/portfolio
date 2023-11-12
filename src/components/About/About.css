@@ -45,6 +45,11 @@
   cursor: default;
 }
 
+.about__text {
+  background: var(--color-bg);
+  border-radius: 10%;
+}
+
 .about__icon {
   color: var(--color-primary);
   font-size: 1.4rem;

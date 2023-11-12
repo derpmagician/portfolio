@@ -68,9 +68,11 @@ function About() {
 
             </motion.article>
           </div>
-          <p>{ t('about.l1')}</p>
-          <p> { t('about.l2')}</p>
-          <p>{ t('about.l3')}</p>
+          <div className="about__text">
+            <p>{ t('about.l1')}</p>
+            <p> { t('about.l2')}</p>
+            <p>{ t('about.l3')}</p>
+          </div>
           <a href="#contact" className="btn btn-primary">{ t('about.talk')}</a>
         </div>
       </div>

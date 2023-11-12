@@ -104,7 +104,7 @@ i18n
             a3: "Amigable",
             l1: "Me gustan los animales y la programación.",
             l2: "Mis lenguajes de programación favoritos son Javascript y Python.",
-            l3: "Trabajó tanto con Angular, React y Vue.",
+            l3: "He trabajado tanto con Angular, React o Vue.",
           },
           experience: {
             skills: "¿Qué habilidades tengo?",

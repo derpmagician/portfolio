@@ -40,14 +40,16 @@
 }
 
 .about__card:hover {
-  background: transparent;
+  background: var(--color-bg-transparent);
   border-color: var(--color-primary-variant);
   cursor: default;
 }
 
 .about__text {
-  background: var(--color-bg);
-  border-radius: 10%;
+  background: var(--color-bg-transparent);
+  border-radius: 5%;
+  padding: 1rem;
+  margin: 1rem 0;
 }
 
 .about__icon {

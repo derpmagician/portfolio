@@ -24,7 +24,7 @@
 }
 
 .bar-color {
-  color: white;
+  color: var(--color-white);
   background: var(--color-bg);
   margin-right: 10px;
 }

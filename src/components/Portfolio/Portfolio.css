@@ -13,8 +13,8 @@
 }
 
 .portfolio__item:hover {
-  border-color: var(--color-primary-variant);
-  background: var(--color-bg-transparent);
+  border-color: var(--highlight);
+  background: var(--color-bg-trans);
 }
 
 .portfolio__item-image {
@@ -23,7 +23,7 @@
 }
 
 .portfolio__item h3 {
-  margin: 1.2rem 0 2rem;
+  margin: 1.25rem 0 1rem;
 }
 
 .portfolio__item-cta {
@@ -34,7 +34,9 @@
 }
 
 .portfolio__item small {
-  border-color: var(--color-light);
+  /* border-color: var(--color-light); */
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
   font-size: 0.9rem;
 }
 

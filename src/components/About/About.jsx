@@ -13,8 +13,6 @@ const btnVariant = {
   initial: {
     opacity: 1,
     y: "0",
-    outlineColor: "white",
-    outlineStyle: "dotted"
   },
   circle: {
     opacity: 1,

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins:wght@300;400;500;600&family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
 
 *, *::before, *::after {
   margin: 0;
@@ -12,11 +12,12 @@
 
 :root {
   --color-bg: #003b46;
-  --color-bg-transparent: #003e47e6;
+  --color-bg-trans: #003e47e6;
   --color-bg-variant: #07575b;
-  --color-primary: #a2c523;
-  --color-primary-variant: #4db5ff66;
+  --color-primary: #d7f141;
+  /* --color-li-blue-trans: #006989; */
   --color-white: #f8f3f3;
+  --color-gray: #757380;
   --color-light: #81ec8a;
   --container-width-lg: 75%;
   --container-width-md: 86%;
@@ -25,7 +26,6 @@
 /* footer */
   --dark: #093e3e;
   --highlight: #006989;
-  --highlight-2: #518de7;
 }
 
 html {

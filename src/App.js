@@ -46,7 +46,7 @@ function App() {
     }
     if (!aboutInView) {
       aboutControls.start({
-        x: "-100vw",
+        x: "-50vw",
         opacity: 0,
       });
     }
@@ -66,7 +66,7 @@ function App() {
     }
     if (!experienceInView) {
       experienceControls.start({
-        x: "100vw",
+        x: "50vw",
       });
     }
    }, [experienceControls, experienceInView]);
@@ -85,7 +85,7 @@ function App() {
 
       if (!portfolioInView) {
         portfolioControls.start({
-          x: "-100vw",
+          x: "-50vw",
         });
     }
    }, [portfolioControls, portfolioInView]);

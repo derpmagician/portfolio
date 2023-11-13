@@ -13,7 +13,7 @@
 }
 
 .experience__container > div:hover {
-  background: var(--color-bg-transparent);
+  background: var(--color-bg-trans);
   border-color: var(--color-bg-variant);
   cursor: default;
 }

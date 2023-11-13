@@ -9,6 +9,7 @@
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
+  margin-bottom: 0.5rem;
 }
 
 .contact__option {
@@ -21,8 +22,8 @@
 }
 
 .contact__option:hover {
-  background: var(--color-bg-transparent);
-  border-color: var(color-primary-variant);
+  background: var(--color-bg-trans);
+  /* border-color: var(--highlight); */
 }
 
 .contact__option-icon {
@@ -42,22 +43,34 @@ form {
   gap: 1.2rem;
 }
 
+.form__group {
+  margin-top: 1rem;
+}
+
+.form__label {
+  position:relative;
+}
+
+.form__label span {
+  position: absolute;
+  padding: 0 1.75rem;
+  color: var(--color-white);
+}
+
+
 .input-text,
 .input-text-area {
   width: 100%;
   padding: 1.5rem;
   border-radius: 0.5rem;
-  background: var(--color-bg-transparent);
-  border: 2px solid var(--color-primary-variant);
+  background: var(--color-bg-trans);
+  border: 2px solid var(--highlight);
   resize: none;
   color: var(--color-white);
   font-weight: bold;
   font-size: 1rem;
   color: var(--color-light);
 }
-
-
-
 
 .input-text:active,
 .input-text:focus,
@@ -69,7 +82,6 @@ form {
 .input-text::placeholder , .input-text-area::placeholder {
   color: var(--color-white);
 }
-
 
 
 /* ==(Tablets)=== */

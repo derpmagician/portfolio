@@ -20,7 +20,6 @@ function Portfolio() {
                   <img src={img} alt={title} />
                 </div>
                 <h3>{title}</h3>
-                {/* <small>{description}</small> */}
                 <small>{t('portfolio.description.' + id)}</small>
                 <div className="portfolio__item-cta">
 

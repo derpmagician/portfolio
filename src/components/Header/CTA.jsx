@@ -14,11 +14,6 @@ const btnVariant = {
       duration: 1.5,
     }
   },
-  // tap: {
-  //   backgroundColor: "var(--highlight-2)",
-  // // --color-bg: #003b46;
-  //    color: "var(--dark)"
-  // },
   hidden: {
     opacity: 0,
     x: "100vw"
@@ -45,9 +40,7 @@ const CTA = () => {
         variants={btnVariant}
         initial="hidden"
         animate="visible"
-        // transition={{delay: 0.25}}
         whileHover="hover"
-        whileTap="tap"
       >
       { t('cta.download')}
       </motion.a>
@@ -58,9 +51,7 @@ const CTA = () => {
         animate={{
           ...btnVariant.visible,
           transition: {...btnVariant.visible.transition, delay: 0.5}}}
-        // transition={{delay: 0.75}}
         whileHover="hover"
-        whileTap="tap"
       >
         {t('cta.talk')}
       </motion.a>

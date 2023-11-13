@@ -32,11 +32,11 @@ const Switch = () => {
       </label> |
       <div className="botones">
         {Object.keys(lngs).map((lng) => (
-          <button key={lng} className="lngBtn btn btn-primary btn-sm"
+          <button key={lng} className="lngBtn btn btn-primary"
             style={{
               fontWeight: i18n.resolvedLanguage === lng ? 'normal' : 'bold',
-              backgroundColor: i18n.resolvedLanguage === lng ? '#cebec5' : '',
-              color: i18n.resolvedLanguage === lng ? '#003b46' : '',
+              backgroundColor: i18n.resolvedLanguage === lng ? 'var(--color-gray)' : '',
+              color: i18n.resolvedLanguage === lng ? 'var(--color-white)' : '',
               cursor:  i18n.resolvedLanguage === lng ? 'not-allowed' : 'pointer',
               // fontSize: '18px'
             }}

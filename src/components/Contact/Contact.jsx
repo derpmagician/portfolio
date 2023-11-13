@@ -44,9 +44,24 @@ const Contact = () => {
         </div>
 
         <form ref={form} onSubmit={sendEmail}>
-          <input id="name" type="text" name="name" placeholder={t('contact.name')} required className='input-text' />
-          <input id="email" type="email" name="email" placeholder={t('contact.email')} required className='input-text'/>
-          <textarea id="message" name="message" rows="7" placeholder={t('contact.msg')} required className='input-text-area' ></textarea>
+          <div className='form__group' >
+            <label className='form__label' >
+              <span>{t('contact.name')}</span>
+              <input id="name" type="text" name="name" required className='input-text' placeholder=''/>
+            </label>
+          </div>
+          <div className='form__group'>
+            <label className='form__label' >
+              <span>{t('contact.email')}</span>
+              <input id="email" type="email" name="email" required className='input-text'/>
+            </label>
+          </div>
+          <div className='form__group'>
+            <label className='form__label' >
+              <span>{t('contact.msg')}</span>
+              <textarea id="message" name="message" rows="7" required className='input-text-area' ></textarea>
+            </label>
+          </div>
           <button type="submit" className="btn btn-primary">{t('contact.btn')}</button>
         </form>
       </div>

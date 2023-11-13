@@ -40,16 +40,21 @@
 }
 
 .about__card:hover {
-  background: var(--color-bg-transparent);
-  border-color: var(--color-primary-variant);
+  background: var(--color-bg-trans);
+  outline: 1px dotted var(--highlight);
   cursor: default;
 }
 
 .about__text {
-  background: var(--color-bg-transparent);
+  background: var(--color-bg-trans);
   border-radius: 5%;
   padding: 1rem;
   margin: 1rem 0;
+}
+
+.about__text p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
 }
 
 .about__icon {

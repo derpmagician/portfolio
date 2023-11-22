@@ -39,14 +39,14 @@ export const myWorks = [
     github: "https://github.com/derpmagician/towerdefencejs",
     demo: "https://derpmagician.github.io/towerdefencejs/",
   },
-  {
-    id: 5,
-    img: "https://i.imgur.com/F5OH2m1.png",
-    title: "Space X Missions",
-    description: "Fetching a Graphql API with React, UseEffect",
-    github: "https://github.com/derpmagician/consumographqlspacex",
-    demo: "https://derpmagician.github.io/consumographqlspacex/",
-  },
+  // {
+  //   id: 5,
+  //   img: "https://i.imgur.com/F5OH2m1.png",
+  //   title: "Space X Missions",
+  //   description: "Fetching a Graphql API with React, UseEffect",
+  //   github: "https://github.com/derpmagician/consumographqlspacex",
+  //   demo: "https://derpmagician.github.io/consumographqlspacex/",
+  // },
   {
     id: 6,
     img: "https://i.imgur.com/hV20buP.gif",

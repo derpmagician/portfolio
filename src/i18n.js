@@ -58,7 +58,7 @@ i18n
               2: "Link shortener made with Node, React y MongoDB, grabs the given url verifies if exist on the db and if doesnt then it gives you a short id, which can be used to access to the given url.",
               3: "Image Editor in React with a save feature manipulating the CSS with React.",
               4: "Javascript vanilla game that uses the Canvas element of HTML and js classes to create the objects.",
-              5: "Fetching a Graphql API with React, UseEffect.",
+              // 5: "Fetching a Graphql API with React, UseEffect.",
               6: "Manipulates the CSS properties to draw the '3D' objects and only uses vanilla js to activate the timer for the screen to appear.",
             },
             
@@ -121,7 +121,7 @@ i18n
               2: "Acortador de enlaces creado con Node, React y MongoDB, toma la URL dada, verifica si existe en la base de datos y, si no es así, le proporciona una identificación corta, que puede usarse para acceder a la URL dada.",
               3: "Editor de imágenes en React con una función de guardado que manipula el CSS con React.",
               4: "Juego básico de Javascript que utiliza el elemento Canvas de las clases HTML y js para crear los objetos.",
-              5: "Obteniendo una API Graphql con React, UseEffect.",
+              // 5: "Obteniendo una API Graphql con React, UseEffect.",
               6: "Manipula las propiedades CSS para dibujar los objetos '3D' y solo usa vanilla js para activar el temporizador para que aparezca la pantalla.",
             },
           },

@@ -60,9 +60,17 @@ section > h5 {
   color: var(--color-light);
 }
 
+section > h5 {
+  font-size: 1.2rem;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.25rem;
+}
+
 section > h2 {
   color: var(--color-primary);
   margin-bottom: 3rem;
+  font-size: 2rem;
+  font-family: 'Poppins', sans-serif;
 }
 
 .text-light {
@@ -76,6 +84,9 @@ section > h2 {
 }
 
 a{
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.05rem;
+  /* font-family: 'DM Serif Display', serif; */
   color: var(--color-primary);
   transition: var(--transition);
 }

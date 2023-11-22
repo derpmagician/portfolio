@@ -30,7 +30,15 @@
   gap: 1.5rem;
 }
 
+.about__container .about__card {
+  /* background-color: red; */
+  font-size: 1.2rem;
+}
+
 .about__card {
+  font-family: 'DM Serif Display', serif;
+  /* font-size: 5rem; */
+  letter-spacing: 0.3rem;
   background: var(--color-bg-variant);
   border: 1px solid transparent;
   border-radius: 1rem;
@@ -53,8 +61,11 @@
 }
 
 .about__text p {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-weight: 500;
+  text-wrap: balance;
+  letter-spacing: 0.5rem;
+  line-height: 1.75rem;
 }
 
 .about__icon {

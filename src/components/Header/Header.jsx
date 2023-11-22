@@ -88,12 +88,12 @@ const Header = () => {
               initial="initial"
               animate={isHovered ? "middle" : "initial"}
             >
-              <h2 className="nombre">Renzo Perez T</h2>
+              <div className="nombre">Renzo Perez T</div>
 
             </motion.h1>
           </AnimatePresence>
           <AnimatePresence>
-            <motion.h5 className="text-light text-space especializacion" tabindex="0"
+            <motion.h5 className="text-light text-space especializacion" tabIndex="0"
               variants={saludoVariant}
               initial="initial"
               animate={isHovered ? "botom" : "initial"}

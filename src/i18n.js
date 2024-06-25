@@ -41,7 +41,7 @@ i18n
             a3: "Friendly",
             l1: "I like animals and programing.",
             l2: "My favorite programing languages are Javascript and Python.",
-            l3: "He trabajado tanto con Angular, React y Vue.",
+            l3: "I have profesional experience with Angular, React y Vue.",
           },
           experience: {
             skills: "What skills i have?",
@@ -104,7 +104,7 @@ i18n
             a3: "Amigable",
             l1: "Me gustan los animales y la programación.",
             l2: "Mis lenguajes de programación favoritos son Javascript y Python.",
-            l3: "He trabajado tanto con Angular, React o Vue.",
+            l3: "Experiencia profesional con Angular, React o Vue.",
           },
           experience: {
             skills: "¿Qué habilidades tengo?",

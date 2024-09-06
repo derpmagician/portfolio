@@ -4,7 +4,7 @@ import {
   motion, AnimatePresence,
 } from 'framer-motion';
 import CTA from './CTA'
-import ME from '../../assets/me.png'
+import ME from '../../assets/me2.png'
 import HeaderSocials from './HeaderSocials'
 import './Header.css'
 

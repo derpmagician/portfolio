@@ -1,6 +1,6 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next';
-import ME from '../../assets/me.png'
+import ME from '../../assets/file.jpg'
 // import ME from '../../assets/me-about.jpg'
 import {
   motion,
